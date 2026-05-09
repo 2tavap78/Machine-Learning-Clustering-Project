@@ -12,7 +12,7 @@ Nonprofit organizations increasingly face donor fatigue caused by untargeted sol
 
 ## Dataset
 
-The dataset (`donors_train.csv`) contains ~95 attributes per donor, covering:
+The dataset (`donors_descriptive.csv`) contains ~95 attributes per donor, covering:
 
 - **Sociodemographics** — age, gender, home ownership, urbanicity, SES, income group, wealth rating, number of children
 - **Neighborhood-level indicators** — median home value, median household income, per capita income, owner-occupied housing rate, military/veteran population percentages
@@ -91,7 +91,7 @@ K-Means was used for both perspectives. The optimal number of clusters was selec
 
 ```
 ├── Donors_Analysis_Final.ipynb   # Main analysis notebook
-├── donors_train.csv              # Input dataset (not included)
+├── donors_descriptive.csv              # Input dataset (not included)
 └── README.md
 ```
 
